@@ -4,7 +4,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en" title='Sontag Maxime Portefolio NextJS'>
+    <Html lang="en">
+      <title></title>
+      <meta name="description" content="Mon portefolio en NextJS."></meta>
       <Head />
       <body>
         <Header/>
