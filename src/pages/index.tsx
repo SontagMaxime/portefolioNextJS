@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
+// import Image from 'next/image'
 import maxime from '../../public/maxime.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,11 +25,11 @@ export default function Home() {
           </div>
 
           <div className='mt-32'>
-            <Image
+            <img
               alt="Image tete"
               className="rounded-full mr-64"
               height="300"
-              src={maxime}
+              src=""
               width="400"
               loading="lazy"
             />
