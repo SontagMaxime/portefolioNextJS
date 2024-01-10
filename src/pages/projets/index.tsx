@@ -20,7 +20,7 @@ const projetIndex: NextPage = () => {
                             quality={60}
                         />
                         <div className="p-5 ">
-                            <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Level Up</h5>
+                            <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Level Up</h3>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 Level Up est un projet réalisé lors d&apos;un marathon web organisé par l&apos;IUT de Lens. Nous étions une équipe de 9 comportant 5 étudiants MMI et 4 étudiants INFO. Le but du projet était de réaliser un site web en Laravel sur 36h, le sujet était un musée en ligne avec différentes salles que l&apos;on pouvait visiter les unes après les autres. Nous avons décidé de faire le musée sur les jeux vidéo en retraçant les différentes époques du jeu vidéo.
                             </p>
@@ -40,7 +40,7 @@ const projetIndex: NextPage = () => {
                                 quality={60}
                             />
                             <div className="p-5">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Space Invaders</h5>
+                                <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Space Invaders</h3>
                                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                     Ce projet consiste à la création du célébre jeu Space Invaders en java. Pour ce faire, nous étions en équipe de 4 pour développer le jeu. Nous avons d&apos;abord commencé par développer la première base du jeu avec les aliens et le joueur, puis nous avons développer de nouvelles fonctionnalité tels que des bonus pour le joueur, des murs de protection ou encore le déplacement en escadrille des aliens.
                                 </p>
@@ -63,7 +63,7 @@ const projetIndex: NextPage = () => {
                             quality={60}
                         />
                         <div className="p-5 ">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Gestion de Pokémon</h5>
+                            <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Gestion de Pokémon</h3>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 Le projet consiste à développer une application de gestion de Pokémon en utilisant le framework Laravel.
                                 L&apos;application permettra aux utilisateurs de gérer leur collection de Pokémon en les ajoutant, en les modifiant et en les supprimant à partir de leur collection personnelle. Les utilisateurs pourront également trier et filtrer leurs Pokémon en fonction de différents critères tels que les types ou les faiblesses. Il y aura des pages dédiées pour chaque Pokémon avec des informations détaillées telles que les statistiques et les images.
@@ -84,7 +84,7 @@ const projetIndex: NextPage = () => {
                                 quality={60}
                             />
                             <div className="p-5">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Application de relevé météo</h5>
+                                <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Application de relevé météo</h3>
                                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                     Notre projet consiste à développer une application de relevée météo en utilisant le framework Flask et une API météorologique. Cette application a été développée par une équipe de 3 développeurs.
                                     L&apos;application permet aux utilisateurs de consulter les dernières prévisions météorologiques d&apos;un emplacement dans la liste. Les utilisateurs pourront également consulter les données météorologiques historiques pour des dates spécifiques. L&apos;application utilise une API météorologique pour récupérer les données en temps réel et les afficher de manière claire et intuitive avec un graphe d&apos;évolution des températures.
