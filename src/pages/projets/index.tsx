@@ -20,7 +20,7 @@ const projetIndex: NextPage = () => {
                             quality={60}
                         />
                         <div className="p-5 ">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Level Up</h5>
+                            <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Level Up</h5>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 Level Up est un projet réalisé lors d&apos;un marathon web organisé par l&apos;IUT de Lens. Nous étions une équipe de 9 comportant 5 étudiants MMI et 4 étudiants INFO. Le but du projet était de réaliser un site web en Laravel sur 36h, le sujet était un musée en ligne avec différentes salles que l&apos;on pouvait visiter les unes après les autres. Nous avons décidé de faire le musée sur les jeux vidéo en retraçant les différentes époques du jeu vidéo.
                             </p>
