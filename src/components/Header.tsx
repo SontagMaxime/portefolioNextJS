@@ -19,11 +19,6 @@ export const Header: React.FC = () => {
                         <span className="text-2xl text-white font-bold uppercase tracking-wide"
                         >SONTAG Maxime</span>
                     </Link>
-                    <button
-                        className="text-white inline-flex p-3 hover:bg-gray-800 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
-                        data-target="#navigation"
-                    >
-                    </button>
                     <div
                         className="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
                         id="navigation"
@@ -33,19 +28,19 @@ export const Header: React.FC = () => {
                         >
                             <Link
                                 href="/"
-                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-800 hover:text-white mr-4"
+                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 items-center justify-center hover:bg-gray-800 hover:text-white mr-4"
                             >
                                 <span className="text-xl">Accueil</span>
                             </Link>
                             <Link
                                 href="/projets"
-                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-800 hover:text-white mr-4"
+                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 items-center justify-center hover:bg-gray-800 hover:text-white mr-4"
                             >
                                 <span className="text-xl">Projets</span>
                             </Link>
                             <Link
                                 href="mailto:maximesontag@gmail.com" 
-                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-800 hover:text-white mr-6"
+                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 items-center justify-center hover:bg-gray-800 hover:text-white mr-6"
                             >
                                 <span className="text-xl">Contact</span>
                             </Link>
