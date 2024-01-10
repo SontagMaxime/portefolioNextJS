@@ -44,12 +44,6 @@ export const Header: React.FC = () => {
                                 <span className="text-xl">Projets</span>
                             </Link>
                             <Link
-                                href="CV_Sontag_maxime.pdf" target="_blank"
-                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-800 hover:text-white mr-6"
-                            >
-                                <span className="text-xl">CV</span>
-                            </Link>
-                            <Link
                                 href="mailto:maximesontag@gmail.com" 
                                 className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-800 hover:text-white mr-6"
                             >
