@@ -13,9 +13,10 @@ const projetIndex: NextPage = () => {
 
                 <div className="grid grid-cols-2 justify-items-center m-10 ">
                     <div className="max-w-sm bg-white">
-                        <Image
+                        <img
                             alt="Image marathon"
-                            src={marathon}
+                            // src={marathon}
+                            src=""
                             loading="lazy"
                         />
                         <div className="p-5 ">
@@ -32,9 +33,10 @@ const projetIndex: NextPage = () => {
                     </div>
                     <div>
                         <div className="max-w-sm bg-white ">
-                            <Image
+                            <img
                                 alt="Image spaceinvader"
-                                src={spaceinvader}
+                                // src={spaceinvader}
+                                src=""
                                 loading="lazy"
                             />
                             <div className="p-5">
@@ -54,9 +56,10 @@ const projetIndex: NextPage = () => {
 
                 <div className="grid grid-cols-2 justify-items-center mr-10 ml-10 mt-20 pb-10">
                     <div className="max-w-sm bg-white">
-                        <Image
+                        <img
                             alt="Image meteo"
-                            src={meteo}
+                            // src={meteo}
+                            src=""
                             loading="lazy"
                         />
                         <div className="p-5 ">
@@ -74,9 +77,10 @@ const projetIndex: NextPage = () => {
                     </div>
                     <div>
                         <div className="max-w-sm bg-white ">
-                            <Image
+                            <img
                                 alt="Image pokemon"
-                                src={pokemon}
+                                // src={pokemon}
+                                src=""
                                 loading="lazy"
                             />
                             <div className="p-5">
