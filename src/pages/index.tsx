@@ -31,7 +31,7 @@ export default function Home() {
               height="300"
               src={maxime}
               width="400"
-              loading="lazy"
+              quality={40}
             />
           </div>
 

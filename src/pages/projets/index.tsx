@@ -16,7 +16,7 @@ const projetIndex: NextPage = () => {
                         <Image
                             alt="Image marathon"
                             src={marathon}
-                            loading="lazy"
+                            quality={40}
                         />
                         <div className="p-5 ">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Level Up</h5>
@@ -35,7 +35,7 @@ const projetIndex: NextPage = () => {
                             <Image
                                 alt="Image spaceinvader"
                                 src={spaceinvader}
-                                loading="lazy"
+                                quality={40}
                             />
                             <div className="p-5">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Space Invaders</h5>
@@ -57,7 +57,7 @@ const projetIndex: NextPage = () => {
                         <Image
                             alt="Image meteo"
                             src={meteo}
-                            loading="lazy"
+                            quality={40}
                         />
                         <div className="p-5 ">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Gestion de Pokémon</h5>
@@ -77,7 +77,7 @@ const projetIndex: NextPage = () => {
                             <Image
                                 alt="Image pokemon"
                                 src={pokemon}
-                                loading="lazy"
+                                quality={40}
                             />
                             <div className="p-5">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-800">Application de relevé météo</h5>
