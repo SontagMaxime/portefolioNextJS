@@ -25,12 +25,11 @@ export default function Home() {
           </div>
 
           <div className='mt-32'>
-            <img
+            <Image
               alt="Image tete"
               className="rounded-full mr-64"
               height="300"
-              // src={maxime}
-              src=""
+              src={maxime}
               width="400"
               loading="lazy"
             />
