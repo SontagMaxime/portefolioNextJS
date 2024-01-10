@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-// import Image from 'next/image'
+import Image from 'next/image'
 import marathon from '../../../public/marathon.png'
 import spaceinvader from '../../../public/spaceinvader.png'
 import meteo from '../../../public/meteo.jpg'
@@ -13,10 +13,9 @@ const projetIndex: NextPage = () => {
 
                 <div className="grid grid-cols-2 justify-items-center m-10 ">
                     <div className="max-w-sm bg-white">
-                        <img
+                        <Image
                             alt="Image marathon"
-                            // src={marathon}
-                            src=""
+                            src={marathon}
                             loading="lazy"
                         />
                         <div className="p-5 ">
@@ -33,10 +32,9 @@ const projetIndex: NextPage = () => {
                     </div>
                     <div>
                         <div className="max-w-sm bg-white ">
-                            <img
+                            <Image
                                 alt="Image spaceinvader"
-                                // src={spaceinvader}
-                                src=""
+                                src={spaceinvader}
                                 loading="lazy"
                             />
                             <div className="p-5">
@@ -56,10 +54,9 @@ const projetIndex: NextPage = () => {
 
                 <div className="grid grid-cols-2 justify-items-center mr-10 ml-10 mt-20 pb-10">
                     <div className="max-w-sm bg-white">
-                        <img
+                        <Image
                             alt="Image meteo"
-                            // src={meteo}
-                            src=""
+                            src={meteo}
                             loading="lazy"
                         />
                         <div className="p-5 ">
@@ -77,10 +74,9 @@ const projetIndex: NextPage = () => {
                     </div>
                     <div>
                         <div className="max-w-sm bg-white ">
-                            <img
+                            <Image
                                 alt="Image pokemon"
-                                // src={pokemon}
-                                src=""
+                                src={pokemon}
                                 loading="lazy"
                             />
                             <div className="p-5">
