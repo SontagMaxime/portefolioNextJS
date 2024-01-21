@@ -3,7 +3,7 @@ import Link from "next/link"
 export const Header: React.FC = () => {
     return (
         <>
-            <header className="flex h-16 items-center justify-between px-4 md:px-6">
+            <header className="flex h-16 items-center justify-between px-4 md:px-6 bg-gray-900">
                 <Link href="https://www.linkedin.com/in/maxime-sontag" target="_blank" className="flex items-center gap-2" aria-label="Join my Linkedin">
                     <svg
                         className="w-6 h-6 text-blue-500 fill-current"
