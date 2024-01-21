@@ -33,13 +33,19 @@ export const Header: React.FC = () => {
                                 <span className="text-xl">Accueil</span>
                             </Link>
                             <Link
+                                href="/competences"
+                                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-gray-800 mr-4"
+                            >
+                                <span className="text-xl">Compétences</span>
+                            </Link>
+                            <Link
                                 href="/projets"
                                 className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-gray-800 mr-4"
                             >
                                 <span className="text-xl">Projets</span>
                             </Link>
                             <Link
-                                href="mailto:maximesontag@gmail.com" 
+                                href="mailto:maximesontag@gmail.com"
                                 className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-gray-800 mr-6"
                             >
                                 <span className="text-xl">Contact</span>

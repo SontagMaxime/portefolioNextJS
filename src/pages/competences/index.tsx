@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import Image from 'next/image'
-import java from '../../../public/java.png'
+import java from '../../../public/java_icon.png'
 import git from '../../../public/git.png'
 import htmlcss from '../../../public/htmlcss.png'
 import python from '../../../public/python.png'
@@ -19,9 +19,11 @@ const projetIndex: NextPage = () => {
                         <div className="bg-white rounded-lg shadow-md ">
                             <Image
                                 alt="Image java"
-                                src={java}
+                                src={bash}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-14" 
+                                height={200}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">Java</h2>
@@ -35,6 +37,8 @@ const projetIndex: NextPage = () => {
                                 src={git}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-14" 
+                                height={200}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">Git</h2>
@@ -45,9 +49,11 @@ const projetIndex: NextPage = () => {
                         <div className="bg-white rounded-lg shadow-md ">
                             <Image
                                 alt="Image htmlcss"
-                                src={htmlcss}
+                                src={sqlite}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-14" 
+                                height={200}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">HTML/CSS</h2>
@@ -61,6 +67,8 @@ const projetIndex: NextPage = () => {
                                 src={python}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-14" 
+                                height={200}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">Python</h2>
@@ -74,9 +82,11 @@ const projetIndex: NextPage = () => {
                         <div className="bg-white rounded-lg shadow-md ">
                             <Image
                                 alt="Image bash"
-                                src={bash}
+                                src={htmlcss}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-10" 
+                                height={150}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">Bash</h2>
@@ -90,6 +100,8 @@ const projetIndex: NextPage = () => {
                                 src={tailwind}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-6" 
+                                height={150}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">Tailwind</h2>
@@ -100,9 +112,11 @@ const projetIndex: NextPage = () => {
                         <div className="bg-white rounded-lg shadow-md ">
                             <Image
                                 alt="Image sqlite"
-                                src={sqlite}
+                                src={java}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover ml-4" 
+                                height={150}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">SQLite</h2>
@@ -116,6 +130,8 @@ const projetIndex: NextPage = () => {
                                 src={sap}
                                 loading="lazy"
                                 quality={60}
+                                className="object-cover"
+                                height={150}
                             />
                             <div className="p-2">
                                 <h2 className="font-bold mb-2 text-2xl text-gray-900 text-center">SAP</h2>
